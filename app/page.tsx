@@ -25,7 +25,7 @@ export default function Portfolio() {
   const handleResumeDownload = () => {
     // Create a blob with the resume content and trigger download
     const link = document.createElement('a')
-    link.href = '/resume.pdf'
+    link.href = 'https://github.com/gurjotsingh-be/portfolio.git/main/public/resume.pdf'
     link.download = 'resume.pdf'
     link.click()
   }
