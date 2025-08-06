@@ -23,11 +23,7 @@ export default function Portfolio() {
   }, [])
 
   const handleResumeDownload = () => {
-    // Create a blob with the resume content and trigger download
-    const link = document.createElement('a')
-    link.href = 'https://gurjotsingh-be.github.io/portfolio/resume.pdf'
-    link.download = 'resume.pdf'
-    link.click()
+    window.open('https://gurjotsingh-be.github.io/portfolio/resume.pdf', '_blank');
   }
 
   const projects = [
